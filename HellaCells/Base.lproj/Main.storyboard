@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Hella Master Table View Controller-->
+        <!--Hella Cells-->
         <scene sceneID="v7B-wZ-7Dm">
             <objects>
                 <tableViewController id="vVs-wD-LXH" customClass="HellaMasterTableViewController" customModule="HellaCells" customModuleProvider="target" sceneMemberID="viewController">
@@ -35,7 +35,7 @@
                             <outlet property="delegate" destination="vVs-wD-LXH" id="Bg3-xj-2xa"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="QbH-WF-hq4"/>
+                    <navigationItem key="navigationItem" title="Hella Cells" id="QbH-WF-hq4"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8BZ-tY-dWJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -53,7 +53,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KQl-nG-gMe">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.29999999999999999" translatesAutoresizingMaskIntoConstraints="NO" id="KQl-nG-gMe">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="150"/>
                                 <nil key="textColor"/>
